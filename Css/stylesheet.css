@@ -1,0 +1,211 @@
+@media(max-height:1700px){
+  #im1{
+        height: 800px;
+      }
+}
+
+@media(max-height:970px){
+  #im1{
+    height: 500px;
+  }
+}
+@media(max-width:990px){
+  #gal-1{
+    margin: auto;
+  }
+}
+
+
+
+
+/* For Scroll-top  */
+#scroll-up{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+  
+  /* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: white; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #212529; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .card{
+    box-shadow: 0 2px 10px ;
+    border-radius: 7px;
+  }
+  /* button{
+    border: 5px solid black;
+  } */
+
+  /* for Form button color */
+  #b1-color{
+    border: 1px solid red;
+  }
+  hr{
+    width: 5%;
+    border: 1px solid #000000;
+    margin: auto;
+  }
+
+  
+  .nav-item{
+    font-weight: bold;
+    font-size: 125%;
+    
+    
+  }
+  #all{
+    margin-left: 110px;
+  }
+  
+  
+  #mynav1 #menu{
+    gap: 30px;
+    
+  }
+img{
+  max-width: 100%;
+}
+  #gallery{
+    padding: 80px 0;
+  }
+
+  
+  #gallery img{
+    background-color: #ffffff;
+    padding: 1px;
+    width: 100%;
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); */
+    cursor: pointer;
+    /* border-radius: 50px; */
+  }
+
+
+  .gallery-font{
+  text-align: center;
+   font-size: 50px;
+   font-weight: bold;
+   cursor: pointer;
+   color: red;
+    
+  }
+
+  .footer{
+    padding: 40px 0;
+    background-color: black;
+    
+  }
+  
+  .footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: rgb(32, 27, 27);
+  }
+
+  .footer .social a{
+      font-size: 30px;
+      color: rgb(182, 44, 44); 
+      
+      list-style: 38px;
+      display: inline-block;
+      text-align: center;
+      margin: 0 20px;
+      opacity: 0.75;
+  }
+
+  .footer .social a:hover{
+    opacity: 0.9; 
+  }
+
+  .footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+    color: red;
+
+  }
+
+  .footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+
+  }
+
+  .footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+
+  }
+
+
+  .footer ul li a:hover{
+    opacity: 1;
+  }
+
+.footer .copyright{
+    text-align: center;
+    list-style: none;
+    margin-top: 20px;
+    
+  }
+
+  .footer .copyright ul{
+    font-size: 15px;
+  }
+
+  /* footer css end */
+
+
+
+  .whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  .whatsapp-icon {
+    margin-top: 16px;
+  }
+
+  /* for mobile */
+  @media screen and (max-width: 767px){
+    .whatsapp-icon {
+      margin-top: 10px;
+    }
+    .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
+    }
+  }
